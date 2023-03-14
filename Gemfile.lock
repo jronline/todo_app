@@ -89,8 +89,8 @@ GEM
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    puma (3.12.2)
-    racc (1.6.2)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.2.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -152,7 +152,7 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.1.20)
       execjs (>= 0.3.0, < 3)
@@ -178,7 +178,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   mysql2 (>= 0.3.18, < 0.6.0)
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.0.7, >= 5.0.7.2)
   sass-rails (~> 5.0)
   spring
